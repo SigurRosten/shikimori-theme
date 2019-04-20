@@ -1,0 +1,131 @@
+/* fonts */
+
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/materialicons/v47/flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2) format('woff2');
+}
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-feature-settings: 'liga';
+  -webkit-font-smoothing: antialiased;
+}
+
+/**/
+
+
+
+/* .profile-actions */
+
+.tipsy {
+	display: none !important;
+}
+
+.l-page .profile-head .c-brief .avatar .profile-actions {}
+
+.p-profiles .profile-head .c-brief {
+	position: relative; /* .profile-actions */
+}
+
+.l-page .profile-head .c-brief .avatar .profile-actions {
+	position: absolute;
+	top: 0;
+	right: 0;
+
+	margin: 0;
+
+	text-align: left;
+}
+
+.l-page .profile-head .c-brief .avatar .profile-actions a {
+	position: relative;
+
+	display: flex;
+	align-items: center;
+	width: 155px;
+	height: 30px;
+	margin: 0;
+	margin-bottom: 10px;
+	padding-left: 15px;
+	
+	color: #fff;
+
+	background: #f95496;
+}
+
+.l-page .profile-head .c-brief .avatar .profile-actions a:hover {
+	background: #fa6da5; /* brighter 5% of #f95496 */
+}
+
+.l-page .profile-head .c-brief .avatar .profile-actions a:active {
+	color: #ffffff70;
+}
+
+.l-page .profile-head .c-brief .avatar .profile-actions .ban {
+	background: #383838;
+}
+
+.l-page .profile-head .c-brief .avatar .profile-actions .ban:hover {
+	background: #454545; /* brighter 5% of #383838 */
+}
+
+.l-page .profile-head .c-brief .avatar .profile-actions a:before {
+	content: "";
+
+	width: auto;
+
+	font-family: 'Material Icons';
+	font-size: 16px;
+}
+
+.l-page .profile-head .c-brief .avatar .profile-actions .mail:before {
+	content: "email";
+}
+
+.l-page .profile-head .c-brief .avatar .profile-actions .settings:before {
+	content: "settings";
+}
+
+.l-page .profile-head .c-brief .avatar .profile-actions .ban:before {
+	content: "not_interested";
+}
+
+.l-page .profile-head .c-brief .avatar .profile-actions a:after {
+	content: "";
+
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	left: 45px;
+
+	display: block;
+
+	font-size: 12px;
+	line-height: 1;
+}
+
+.l-page .profile-head .c-brief .avatar .profile-actions .mail:after {
+	content: "Почта";
+}
+
+.l-page .profile-head .c-brief .avatar .profile-actions .settings:after {
+	content: "Настройки";
+}
+
+.l-page .profile-head .c-brief .avatar .profile-actions .ban:after {
+	content: "Мои баны";
+}
+
+/**/

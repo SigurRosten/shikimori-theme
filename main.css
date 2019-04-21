@@ -35,8 +35,8 @@
 
 .l-page .profile-head .c-brief .avatar .profile-actions {}
 
-.p-profiles .profile-head .c-brief {
-	position: relative; /* .profile-actions */
+.l-page .profile-head .c-brief {
+	position: relative; /* .avatar img, .profile-actions */
 }
 
 .l-page .profile-head .c-brief .avatar .profile-actions {
@@ -126,6 +126,33 @@
 
 .l-page .profile-head .c-brief .avatar .profile-actions .ban:after {
 	content: "Мои баны";
+}
+
+/**/
+
+
+
+/* .c-brief .avatar */
+
+.l-page .profile-head .c-brief .avatar {}
+
+.l-page .profile-head .c-brief .avatar {
+	float: none;
+	
+	max-width: 0;
+	margin: 0;
+}
+
+.l-page .profile-head .c-brief .avatar img {
+	position: absolute;
+	top: -25px;
+
+	box-sizing: content-box;
+	width: 125px;
+	height: 125px;
+
+	border: 5px solid #1a1a1a;
+	border-radius: 50%;
 }
 
 /**/
